@@ -4,6 +4,34 @@
 
 ---
 
+## 26 junio 2026 — Consolidación V3 (sistema completo)
+
+> Se migró todo lo bueno del documento `v3-sistema-completo.md` (que vivía en `crecio-cerebro`) a este repo, corrigiendo precios, combos y lenguaje legal. **MiStream queda como única fuente de verdad.**
+
+### Nuevo contenido
+- ✅ `marca/identidad.md` + `marca/brand-kit.md` — posicionamiento, tono, eslogan, paleta (azul #1E3A5F + ámbar #F59E0B + oscuro #0F172A), tipografía
+- ✅ `equipo/roles.md` — **4 integrantes:** Juan Manuel (técnico), Lorena, Melisa, Madelyn (ventas). Corregidas las "dos Madelyn" del V3
+- ✅ `cliente/icp-avatares.md` — ICP vs seguidor ideal + 4 sub-avatares
+- ✅ `copys/objeciones.md` — respuestas a objeciones con **lenguaje legal cuidado**
+- ✅ `contenido/estrategia.md` — niveles de awareness, formatos, batching, calentamiento de cuentas
+- ✅ `contenido/guiones.md` — **6 guiones listos para grabar** + banco de hooks
+- ✅ `contenido/whatsapp-estados.md` — estrategia de estados para los 4, calendario semanal, 6 plantillas y flujo de saludo
+- ✅ `marketing/metas.md` — metas **realistas** (mes 1 ~$300K) + puente numérico hacia los millones (retención 70% + referidos 30%)
+- ✅ `marketing/telegram.md`, `marketing/remarketing-crm.md`, `marketing/plan-30-dias.md`, `marketing/riesgos.md`
+- ✅ Actualizados `CLAUDE.md`, `README.md` y `marketing/adquisicion.md` (embudo completo + estados WA)
+
+### Correcciones aplicadas (lo que estaba mal en el V3)
+- 🔧 **Precios:** Spotify y YouTube a **$14.000** en todos los guiones (antes $12.000; gancho vs competencia $22.000/$24.000)
+- 🔧 **Combos:** reemplazados los combos del competidor con margen $0–$2.500 por combos con **piso de margen $8.000** (`negocio/combos.md`)
+- 🔧 **Legal:** eliminado "100% legal / autorizado / hackeado". Ahora: "perfiles privados de cuentas compartidas" con soporte y reposición
+- 🔧 **Equipo:** definidas 4 personas reales (Lorena, Melisa, Madelyn, Juan Manuel)
+- 🔧 **Metas:** añadido el "puente" numérico que faltaba entre el mes 1 realista y la meta grande
+
+### Próximo (mañana)
+- Arrancar publicidad por **estados de WhatsApp** de los 4 · luego crear cuentas TikTok/IG · Telegram · CRM
+
+---
+
 ## 26 junio 2026 — Creación del repo
 
 ### Montaje inicial del cerebro MiStream
