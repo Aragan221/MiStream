@@ -52,13 +52,11 @@ Todas privadas y activadas el mismo día. ¿Te armo uno?
 
 ---
 
-## Mensaje 4 — Cierre + referidos (retención)
+## Mensaje 4 — Cierre (sin referidos por ahora)
 ```
-Listo parce, ¿con cuál nos vamos? 🙌
+Listo, ¿con cuál nos vamos? 🙌
 
-Y ojo con esto: si me recomiendas a alguien (un familiar, un amigo) y compra, a los DOS les mantengo el precio especial. Tú ganas por recomendar, sin pagar nada. 🤝
-
-Así de simple: tú ahorras, tu parcero estrena pantalla, todos felices.
+Apenas me confirmes te paso los datos de pago y en menos de 1 hora te activo todo ⚡
 ```
 
 ---
@@ -78,9 +76,11 @@ Apenas me llegue, te activo en menos de 1 hora ⚡
 ---
 
 ## Reglas de uso
-- **Nunca** improvisar descuentos en el chat. El único "descuento" es primera vez / referidos (`negocio/referidos.md`).
+- **Nunca** improvisar descuentos en el chat. Todos al mismo precio regular (`negocio/precios.md`).
 - Si el cliente regatea: vender **valor** (reposición, activación rápida, trato humano), no bajar precio. Ver `propuesta-valor/por-que-mistream.md`.
 - Resaltar siempre el gancho Spotify/YouTube (somos justos donde otros abusan).
+- **Referidos PAUSADOS** — no se mencionan hasta que Juan Manuel los active.
+- Para la entrega de credenciales usar las plantillas de `copys/entrega-cuenta.md`.
 - Para fórmulas de copy más avanzadas (AIDA/PAS/BAB), ver `crecio-cerebro/skills/contenido/copywriting.md`.
 
-*Última actualización: 26 junio 2026.*
+*Última actualización: 2 julio 2026.*
