@@ -63,8 +63,13 @@ FONDO (NO vacío):
 - Columnas de mármol con luz dorada rebotando
 - Profundidad: la sala se siente GRANDE, no un cuarto pequeño
 
-FORMATO: Vertical 9:16, resolución máxima.
+FORMATO: Cuadrado 1:1 por defecto. Si el usuario pide otro formato (9:16, 16:9, etc.) se cambia.
 CALIDAD: CGI de estudio cinematográfico. Nivel Unreal Engine 5 / Blender Cycles.
+
+LOGO DE MISTREAM:
+- La IA NO conoce el logo de MiStream. NO intentes generarlo.
+- En su lugar: escribe el texto "MiStream" en tipografía sans-serif bold, color blanco con glow dorado sutil, en la esquina superior o inferior (donde no compita con el contenido principal).
+- NUNCA inventes un símbolo, ícono o imagotipo para MiStream. Solo el TEXTO "MiStream".
 
 AHORA GENERA ESTA PIEZA:
 ```
@@ -130,7 +135,7 @@ TIPOGRAFÍA MISTREAM (para texto que se agregue):
 - Sombra larga (drop shadow negro difuso)
 - Precios EXTRA GRANDES con efecto de relieve 3D
 
-FORMATO: Vertical 9:16 (estados WA / stories)
+FORMATO: Cuadrado 1:1 (si necesito 9:16, lo pido explícitamente)
 CALIDAD: CGI de estudio cinematográfico aplicada a la escena.
 
 EJEMPLO DE CÓMO DEBE VERSE:
@@ -155,7 +160,7 @@ PIEZA: Vitrina general
 - La flecha de la ruleta apunta al logo de Netflix
 - Texto superpuesto arriba: "¿CUÁL ES TU PRÓXIMA PANTALLA?"
 - Texto abajo: "ESCRÍBEME Y TE LA ACTIVO HOY 📲"
-- Logo "MiStream" pequeño en esquina superior
+- Texto "MiStream" (solo texto, sin logo inventado) en esquina superior
 ```
 
 **Imagen 2 — Noche (7:30 PM): GANCHO SPOTIFY**
