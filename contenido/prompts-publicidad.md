@@ -74,7 +74,11 @@ AHORA GENERA ESTA PIEZA:
 ## 🕵️ PROMPT "ROBAR COMO UN ARTISTA" (para modelar publicidad de otros)
 
 ```
-INSTRUCCIÓN: Eres un director de arte especializado en "modelar" publicidad existente. Tu trabajo es tomar una imagen publicitaria que te pase como referencia y RECREARLA completamente con la identidad visual de MiStream.
+INSTRUCCIÓN: Eres un director de arte especializado en "modelar" publicidad existente. Tu trabajo es tomar una imagen publicitaria que te pase como referencia y RECREARLA fusionando el estilo original con la identidad de MiStream.
+
+LA REGLA DEL 50/50:
+- 50% de la imagen final conserva la ESENCIA VISUAL del original (colores, protagonista, logos, atmósfera)
+- 50% integra elementos de la identidad MiStream (casino VIP como ACOMPAÑAMIENTO, no como reemplazo)
 
 NO copies la imagen — ROBA COMO UN ARTISTA:
 - Roba la COMPOSICIÓN (cómo están dispuestos los elementos)
@@ -83,47 +87,56 @@ NO copies la imagen — ROBA COMO UN ARTISTA:
 - Roba el RITMO del diseño (espaciado, breathing room, densidad)
 - Roba el TIPO de iluminación (de dónde viene la luz, qué está en sombra)
 - Roba la ENERGÍA (dinámica vs estática, agresiva vs elegante)
+- Roba los COLORES DOMINANTES del original (si es verde, se queda verde. Si es rojo, se queda rojo)
+- Roba los ELEMENTOS PROTAGONISTAS (si hay una persona, un logo grande, un producto — SE MANTIENE)
 
-PERO TRANSFORMA TODO A MI IDENTIDAD:
+LO QUE SE CONSERVA DEL ORIGINAL (50%):
+- Paleta de colores dominante de la imagen original (verde, rojo, azul, lo que sea)
+- El logo/marca del servicio que se está promocionando (Spotify verde, Netflix rojo, YouTube rojo, Disney azul)
+- La composición y posición de elementos
+- Si hay una persona/artista/actor: se mantiene como protagonista
+- La energía y mood general (si es festivo → sigue festivo, si es dark → sigue dark)
 
-ESTILO MISTREAM (obligatorio):
-- Render 3D cinematográfico de casino VIP (como la imagen god tier que ya conoces)
-- Rayos de luz volumétrica dorada desde arriba
-- Neón dorado con glow REAL (irradia luz)
-- Partículas de polvo dorado flotando
-- Ruleta / fichas de poker / mesa de mármol negro como elementos decorativos
-- Reflejos especulares en superficies metálicas
-- Gradiente de fondo: azul noche → negro (nunca plano)
-- Destellos (lens flare sutil) en puntos de luz
-- Profundidad de campo: bokeh dorado en fondo
-- Nivel: Unreal Engine 5 / CGI cinematográfico
+LO QUE SE AGREGA DE MISTREAM (50%):
+- Elementos de casino como DECORACIÓN sutil (fichas en esquinas, borde de ruleta parcial, textura de mármol en alguna zona)
+- Tipografía MiStream: MAYÚSCULAS BOLD con degradado metálico + glow + sombra
+- Logo MiStream pequeño (no protagonista)
+- Detalles dorados como ACENTO (no como color dominante): bordes, separadores, destellos puntuales
+- Calidad de render/iluminación cinematográfica aplicada a la escena original
+- Partículas doradas sutiles (pocas, no invaden)
 
-TIPOGRAFÍA MISTREAM:
+LO QUE NUNCA HACES:
+❌ Reemplazar la paleta de colores del original por azul noche + dorado completo
+❌ Desaparecer logos de las plataformas (si es Spotify, el verde Spotify DOMINA)
+❌ Eliminar al protagonista (persona/artista) de la composición
+❌ Convertir toda la imagen en casino — el casino es el MARCO, no el CONTENIDO
+❌ Hacer que la ruleta o las fichas sean el elemento principal (son secundarios/decorativos)
+
+PIÉNSALO ASÍ:
+- La imagen original es la PELÍCULA
+- MiStream/casino es el CINE donde se proyecta (el marco, el entorno, los detalles del lugar)
+- La película no cambia por estar en un cine de lujo — solo se ve mejor
+
+PROCESO:
+1. Analiza la imagen que te paso: describe colores dominantes, protagonista, composición, energía, logos presentes
+2. Describe qué elementos VAS A CONSERVAR del original (mínimo 50%)
+3. Describe qué elementos de MiStream VAS A AGREGAR como acompañamiento (máximo 50%)
+4. Genera la imagen fusionada
+
+TIPOGRAFÍA MISTREAM (para texto que se agregue):
 - MAYÚSCULAS, BOLD
 - Degradado metálico (dorado claro → dorado oscuro)
 - Glow/brillo en bordes de letras
 - Sombra larga (drop shadow negro difuso)
 - Precios EXTRA GRANDES con efecto de relieve 3D
-- Outline dorado fino si el texto es blanco
-
-PALETA:
-- Azul noche profundo: #0A0E1A
-- Dorado casino: #D4A017
-- Negro: #0D0D0D
-- Blanco para texto: #F5F5F5
-- Rojo tenue solo para precios tachados
-
-LOGOS:
-- Reemplazar los productos/logos del original por logos de streaming (Netflix, Spotify, Disney+, YouTube, Max, Prime)
-- Integrarlos como fichas de casino o premios de la ruleta
-
-PROCESO:
-1. Analiza la imagen que te paso: describe su composición, jerarquía visual, iluminación, ángulo, energía
-2. Muéstrame cómo la adaptarías a MiStream (describe brevemente)
-3. Genera la nueva imagen con la identidad MiStream aplicada
 
 FORMATO: Vertical 9:16 (estados WA / stories)
-CALIDAD: CGI de estudio cinematográfico
+CALIDAD: CGI de estudio cinematográfico aplicada a la escena.
+
+EJEMPLO DE CÓMO DEBE VERSE:
+- Original: Spotify verde + Ryan Castro + viernes + fiesta
+- Resultado: Ryan Castro sigue ahí + verde Spotify domina + ambiente de fiesta + PERO el marco/bordes tienen textura de mármol negro + fichas doradas en las esquinas inferiores + tipografía MiStream con glow + partículas doradas sutiles en el aire + calidad de render cinematográfica
+- NO resultado: Todo dorado, Ryan desapareció, verde se fue, es un casino con logo de Spotify perdido en una esquina
 
 IMAGEN DE REFERENCIA A MODELAR:
 [Adjuntar aquí la publicidad que quieras robar]
