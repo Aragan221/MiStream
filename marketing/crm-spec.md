@@ -171,4 +171,93 @@ MiStream CRM · Automático
 
 ---
 
+## IDEAS ADICIONALES (para implementar o evaluar)
+
+### Sistema de escalamiento de correos de renovación
+
+No es un solo correo — es una secuencia que sube la presión:
+
+| Día | Correo | Tono | Acción requerida |
+|-----|--------|------|------------------|
+| **3 días antes** (ej: 5 agosto) | "Recordatorio: renovación pendiente" | Informativo, tranquilo | Contactar proveedor |
+| **2 días antes** (si no se confirmó) | "URGENTE: renovación mañana" | Urgente, destacado | Renovar HOY o se pierde |
+| **1 día antes** (último aviso) | "ÚLTIMO DÍA: se vence mañana" | Máxima presión, rojo | Renovar AHORA o el cliente pierde acceso |
+
+**Cómo se confirma:** se responde al correo diciendo "Listo" o se marca en el HTML como "Renovado". Si no se marca como renovado, al día siguiente sube la urgencia.
+
+**Lógica:**
+```
+Día 1 (3 antes): manda correo nivel 1
+  → Si se marca "Renovado" en el CRM → se detiene
+  → Si NO se marca → al día siguiente...
+Día 2 (2 antes): manda correo nivel 2 (URGENTE)
+  → Si se marca → se detiene
+  → Si NO → al día siguiente...
+Día 3 (1 antes): manda correo nivel 3 (ÚLTIMO DÍA)
+  → Si NO se renueva → marca como VENCIDO automáticamente
+```
+
+---
+
+### Datos adicionales por cliente (campos extra)
+
+| Campo | Para qué |
+|-------|----------|
+| Correo de la cuenta | El email con el que se activa la pantalla (para renovar) |
+| Contraseña | La clave del perfil (para no depender del chat) |
+| Perfil asignado | P1, P2, P3... (si aplica) |
+
+Estos datos son CRÍTICOS para la renovación: cuando le pides al proveedor, necesitas decirle la cuenta exacta.
+
+---
+
+### Copys automáticos para el proveedor
+
+El CRM genera un texto listo para copiar y enviar al proveedor:
+
+```
+Hola, para el día [FECHA] se me vence la renovación de:
+- Plataforma: [PLATAFORMA]
+- Cuenta: [CORREO]
+- Contraseña: [CLAVE]
+- Perfil: [PERFIL]
+
+Necesito renovar por 1 mes más. Confirma cuando esté listo.
+```
+
+Ese texto aparece con un botón "Copiar" en el HTML cuando hay renovación pendiente.
+
+---
+
+### Input inteligente (texto en crudo o audio)
+
+**Opción 1 — Campo de texto libre:**
+- Un textarea grande donde la persona pega info en crudo
+- Ejemplo: "Madelyn vendió Prime a Camilo 3001234567, 3 meses por 30mil, costo 10500, cuenta prime.user@gmail.com clave Prime123 perfil P2"
+- El sistema (Apps Script) parsea la información y la organiza automáticamente en las columnas
+
+**Opción 2 — Audio (futuro):**
+- Un botón de micrófono en el HTML
+- Graba audio → lo transcribe (Whisper/Grok) → lo parsea en campos
+- Más complejo pero posible. Se evalúa después de tener el CRM base funcionando.
+
+**Prioridad:** primero el formulario manual + campo de texto libre. Audio después.
+
+---
+
+### Orden de construcción (próxima sesión)
+
+| Prioridad | Qué | Complejidad |
+|-----------|-----|-------------|
+| 1 | Google Sheets (estructura) | Baja |
+| 2 | Apps Script (guardar/editar/eliminar) | Media |
+| 3 | HTML (formulario + tabla + dashboard) | Alta |
+| 4 | Correos nivel 1 (recordatorio simple) | Media |
+| 5 | Escalamiento de correos (3 niveles) | Media |
+| 6 | Copys para proveedor (botón copiar) | Baja |
+| 7 | Campo de texto libre (parseo inteligente) | Media-Alta |
+| 8 | Audio → transcripción → parseo | Alta (futuro) |
+
+---
+
 *Última actualización: 8 julio 2026.*
