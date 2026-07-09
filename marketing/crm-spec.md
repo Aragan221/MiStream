@@ -236,12 +236,31 @@ Ese texto aparece con un botón "Copiar" en el HTML cuando hay renovación pendi
 - Ejemplo: "Madelyn vendió Prime a Camilo 3001234567, 3 meses por 30mil, costo 10500, cuenta prime.user@gmail.com clave Prime123 perfil P2"
 - El sistema (Apps Script) parsea la información y la organiza automáticamente en las columnas
 
-**Opción 2 — Audio (futuro):**
-- Un botón de micrófono en el HTML
-- Graba audio → lo transcribe (Whisper/Grok) → lo parsea en campos
-- Más complejo pero posible. Se evalúa después de tener el CRM base funcionando.
+**Opción 2 — Audio (Web Speech API — CONFIRMADO, gratis, nativo del navegador):**
+- Un botón de micrófono en el HTML (touch target grande)
+- Usa `webkitSpeechRecognition` con `lang: 'es-CO'`
+- Graba voz → convierte a texto → parsea en campos automáticamente
+- $0 costo, funciona en Chrome y Safari iOS
+- Necesita internet (envía a servidores Google/Apple para procesar)
+- Alta precisión para frases cortas tipo "Madelyn vendió Prime a Camilo tres meses treinta mil"
 
-**Prioridad:** primero el formulario manual + campo de texto libre. Audio después.
+**Código base confirmado:**
+```javascript
+var recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+recognition.lang = 'es-CO';
+recognition.continuous = false;
+recognition.interimResults = false;
+
+recognition.onresult = function(event) {
+    var texto = event.results[0][0].transcript;
+    // Parsear texto → campos del CRM
+    parsearVenta(texto);
+};
+
+recognition.start(); // Al tocar botón de micrófono
+```
+
+**Prioridad:** Se implementa JUNTO con el campo de texto libre (mismo parseo, diferente input).
 
 ---
 
@@ -255,8 +274,8 @@ Ese texto aparece con un botón "Copiar" en el HTML cuando hay renovación pendi
 | 4 | Correos nivel 1 (recordatorio simple) | Media |
 | 5 | Escalamiento de correos (3 niveles) | Media |
 | 6 | Copys para proveedor (botón copiar) | Baja |
-| 7 | Campo de texto libre (parseo inteligente) | Media-Alta |
-| 8 | Audio → transcripción → parseo | Alta (futuro) |
+| 7 | Campo de texto libre + micrófono (parseo inteligente) | Media |
+| 8 | ~~Audio → transcripción → parseo~~ (YA incluido en #7 con Web Speech API) | — |
 
 ---
 
