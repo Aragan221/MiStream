@@ -4,6 +4,40 @@
 
 ---
 
+## 8 julio 2026 — Sesión completa: V3 reescrito + identidad casino + prompts publicidad
+
+### Cambios mayores
+- ✅ `v3-sistema-completo.md` — REESCRITO desde cero con identidad visual casino de lujo, plan actualizado desde 3 julio, 15 secciones completas
+- ✅ `marketing/plan-30-dias.md` — REESCRITO completo (4 semanas con acciones por persona, KPIs, checklist)
+- ✅ `negocio/combos.md` — Actualizado con 7 combos oficiales que respetan margen $8K+, lista de combos prohibidos
+- ✅ `negocio/referidos.md` — PAUSADO hasta validar ventas reales. Todos al mismo precio.
+- ✅ `copys/whatsapp.md` — Actualizado: quitados referidos del cierre, agregada referencia a entrega-cuenta.md
+- ✅ `copys/entrega-cuenta.md` — NUEVO: 4 plantillas de entrega de cuenta (estándar, combo, minimalista, Spotify/YouTube)
+- ✅ `contenido/prompts-publicidad.md` — NUEVO: prompt base cinematográfico + prompt "Robar como un artista" (regla 50/50) + prompt incrustar personaje + 14 variaciones por día + calendario + nombres de archivos
+- ✅ `marca/publicidad/` — NUEVA carpeta con imagen god tier de referencia
+- ✅ `contenido/semana-1/` — NUEVA carpeta con 9 piezas publicitarias generadas (renombradas con nombres descriptivos)
+- ✅ `assets/` — Carpeta creada para HTMLs visuales
+
+### Decisiones tomadas
+- Identidad visual: temática **casino de lujo** SOLO para diseño de contenido, NO para lenguaje
+- Lenguaje de venta: natural colombiano, humano, desde perfiles personales
+- Referidos: PAUSADOS hasta tener ventas reales
+- Todos los clientes al mismo precio regular (sin escalones primera vez)
+- Formato por defecto de imágenes: 1:1 (cuadrado)
+- Logo MiStream: solo texto, nunca inventar símbolo gráfico
+- Prompts de publicidad: regla 50/50 al robar de otros (conservar esencia original)
+
+### Prompts de publicidad creados
+1. **Prompt base cinematográfico** — estilo Unreal Engine 5, casino VIP, tipografía con degradado
+2. **Robar como un artista** — modelar publicidad de otros con regla 50/50
+3. **Incrustar personaje** — recrear pieza existente con personaje nuevo integrado
+4. **Catálogo limpio** — versión minimalista para enviar en chat
+5. **14 variaciones diarias** — semana 1 completa con horarios
+
+*Última actualización: 8 julio 2026.*
+
+---
+
 ## 26 junio 2026 — Consolidación V3 (sistema completo)
 
 > Se migró todo lo bueno del documento `v3-sistema-completo.md` (que vivía en `crecio-cerebro`) a este repo, corrigiendo precios, combos y lenguaje legal. **MiStream queda como única fuente de verdad.**
