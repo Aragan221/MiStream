@@ -4,6 +4,50 @@
 
 ---
 
+## 10 julio 2026 — CRM operativo + actualización precios + bot Telegram
+
+### CRM MiStream — OPERATIVO
+- ✅ URL: https://mistream-crm.netlify.app/
+- ✅ Backend: Google Apps Script v3 (CRUD + correos renovación + remarketing)
+- ✅ Dashboard: ventas, facturación, costo, ganancia, renovaciones próximas
+- ✅ Registrar, editar, eliminar ventas desde celular
+- ✅ Correos automáticos 3 niveles (3 días, 2 días, último día) a crecio.co@gmail.com
+- ✅ Remarketing automático para vencidos (correo diario 9AM)
+- ✅ Tab "Renovar" con botón copiar mensaje proveedor + marcar renovado
+- ✅ 5 ventas reales registradas: $85K facturación, $44K ganancia
+
+### Bot de Telegram — OPERATIVO
+- ✅ Bot: @crecio_transcriptor_bot
+- ✅ Transcribe videos de YouTube al instante
+- ✅ Multi-idioma (es/en/pt/fr/de)
+- ✅ Cola de videos + playlists (max 10)
+- ✅ Historial (/historial)
+- ✅ Modo silencioso (+200 palabras = solo archivos)
+- ✅ Título real del video
+- ✅ Deduplicación automática
+- ✅ Archivo .txt descargable
+- ✅ Código en: crecio-cerebro/tools/bot_telegram.py
+
+### Actualización de precios
+- ✅ YouTube Premium: costo proveedor $5.500 → **$6.000** (margen baja de $8.500 a $8.000)
+- ✅ Combo Música + Video (Spotify + YouTube): costo $11.000 → $11.500, margen $9.000 → $8.500
+- ✅ Nuevo combo: 2× YouTube para misma persona → $22.000 (ganancia $10.000)
+
+### Publicidad semana 1
+- ✅ 9 piezas generadas con estética casino VIP
+- ✅ Prompts completos en `contenido/prompts-publicidad.md`
+- ✅ Calendario de publicación definido
+- ✅ Prompt "Robar como un artista" (regla 50/50)
+- ✅ Prompt incrustar personaje
+
+### Plan operativo
+- ✅ `plan-mistream.html` actualizado con copys + flujo de venta + frases rápidas
+- ✅ Equipo (Lorena, Melisa, Madelyn) con acceso al CRM y copys
+
+*Última actualización: 10 julio 2026.*
+
+---
+
 ## 8 julio 2026 — Sesión completa: V3 reescrito + identidad casino + prompts publicidad
 
 ### Cambios mayores

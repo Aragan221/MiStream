@@ -2,7 +2,7 @@
 
 > **Regla de combos:** margen mínimo **$8.000**. Si un combo no llega, se sube el precio o se quita una plataforma. Un combo NUNCA puede dejar menos margen que vender las pantallas sueltas con descuento descontrolado.
 
-Costos de referencia (ver `precios.md`): servicios base $3.000–$3.500, Netflix $9.000, Paramount $6.000, Spotify/YouTube $5.500, Canva $7.000.
+Costos de referencia (ver `precios.md`): servicios base $3.000–$3.500, Netflix $9.000, Paramount $6.000, Spotify $5.500/YouTube $6.000, Canva $7.000.
 
 ---
 
@@ -12,7 +12,7 @@ Costos de referencia (ver `precios.md`): servicios base $3.000–$3.500, Netflix
 |---|-------|-------------|------:|------:|------:|---|
 | 1 | **Streaming básico** | Disney + Max | $7.000 | $15.000 | **$8.000** | Ahorra $5.000 |
 | 2 | **Streaming triple** | Disney + Max + Prime | $10.500 | $20.000 | **$9.500** | Ahorra $10.000 |
-| 3 | **Música + Video** | Spotify + YouTube | $11.000 | $20.000 | **$9.000** | Ahorra $8.000 |
+| 3 | **Música + Video** | Spotify + YouTube | $11.500 | $20.000 | **$8.500** | Ahorra $8.000 |
 | 4 | **Todo audio** | Spotify + YouTube + Canva | $18.000 | $28.000 | **$10.000** | Ahorra $14.000 |
 | 5 | **Familiar** | Netflix + Disney + Max + Prime | $19.500 | $30.000 | **$10.500** | Ahorra $15.000 |
 | 6 | **Netflix + Música** | Netflix + Spotify | $14.500 | $24.000 | **$9.500** | Ahorra $5.000 |
